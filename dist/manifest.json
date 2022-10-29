@@ -1,0 +1,33 @@
+{
+  "name": "Noteworthy",
+  "description": "Annotate any website!",
+  "version": "2.0",
+  "manifest_version": 3,
+  "action": {
+    "default_icon": {
+      "16": "assets/images/Noteworthy-Logo.png",
+      "32": "assets/images/Noteworthy-Logo.png",
+      "48": "assets/images/Noteworthy-Logo.png",
+      "128": "assets/images/Noteworthy-Logo.png"
+    }
+  },
+  "icons": {
+    "16": "assets/images/Noteworthy-Logo.png",
+    "32": "assets/images/Noteworthy-Logo.png",
+    "48": "assets/images/Noteworthy-Logo.png",
+    "128": "assets/images/Noteworthy-Logo.png"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "assets/js/background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["assets/js/main.min.js"]
+    }
+  ],
+  "offline_enabled": true
+}

@@ -13,9 +13,7 @@
     A note-taking app that lets you annotate any website.
     <br />
     <br />
-    <a href="https://example.com">Download</a> the extension in the chrome web store
-    ·
-    <a href="https://example.com">Test</a> out the app here
+    <a href="https://chrome.google.com/webstore/detail/noteworthy/ipgeapjcihgdkhoilllkfgkhailadfha">Download</a> the extension in the chrome web store
     ·
     <a href="https://github.com/Noteworthy-Extension/Noteworthy-App/issues">Report a bug</a>
   </p>
@@ -82,26 +80,13 @@ _There are a few ways to install noteworthy_
   <li>Chrome Webstore</li>
 
   <ul>
-    <li>The Chrome Webstore is the easiest way to install Noteworthy but sometimes updates get delayed. First, go to the app's page on the
-    <a href='https://example.com'>Chrome Webstore</a>
-    </li>
+    The Chrome Webstore is the easiest way to install Noteworthy but sometimes updates get delayed. First, go to the app's page on the
+    <a href='https://chrome.google.com/webstore/detail/noteworthy/ipgeapjcihgdkhoilllkfgkhailadfha'>Chrome Webstore</a>
 
-    <li>Click install, go to a page and click on the extension. A dropdown should open which will allow you to markdown the page. Once you're done you can leave the page and all of your notes will stay when you return</li>
+    <>Click install, go to a page and click on the extension. A dropdown should open which will allow you to markdown the page. Once you're done you can leave the page and all of your notes will stay when you return</l
   </ul>
-
-  <li>2. Bookmarklet</li>
-
-  <ul>
-    <li>
-      If you want to test Noteworthy before downloading it, you can run a bookmarklet. A bookmarklet is a Javascript in a bookmark, this bookmark has to be run every time you load a page making this not a long-term way to download.
-    </li>
-
-    <li>
-      Go to the [GitHub Pages](https://example.com) and drag the link that says "bookmarklet" into your bookmarks bar. (If it is hidden, press Ctrl + Shift + B).
-    </li>
-  </ul>
-
-  <li>3. From the source</li>
+  
+  <li>2. From the source</li>
 
   <ul>
     <li>

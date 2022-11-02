@@ -1,176 +1,149 @@
+<a name="readme-top"></a>
 
 <!-- PROJECT LOGO -->
-
 <br />
+<div align="center">
+  <a href="https://github.com/Noteworthy-Extension">
+    <img src="https://res.cloudinary.com/dy1ztqqbk/image/upload/v1667020915/Noteworthy%20App/Noteworthy-Logo_p2w7om.png" alt="Logo" width="100" height="100">
+  </a>
 
-<div  align="center">
+  <h3 align="center">Noteworthy App</h3>
 
-<a  href="https://github.com/Noteworthy-Extension">
-
-<img  src="dist/assets/images/Noteworthy-Logo.png"  alt="Logo"  width="80"  height="80">
-
-</a>
-
-  
-
-<h3  align="center">Noteworthy</h3>
-
-  
-
-<p  align="center">
-
-A browser based extension that allows you to take notes and annotate any page!
-
-<br />
-
-<a  href="https://chrome.google.com/webstore/search/Noteworthy"><strong>Go To Extension »</strong></a>
-
-<br />
-
-<br />
-
-<a  href="https://github.com/Noteworthy-Extension/Noteworthy-Extension">View Demo</a>
-
-·
-
-<a  href="https://github.com/Noteworthy-Extension/Noteworthy-Extension/issues">Report Bug</a>
-
-·
-
-<a  href="https://github.com/Noteworthy-Extension/Noteworthy-Extension/issues">Request Feature</a>
-
-</p>
-
+  <p align="center">
+    A note-taking app that lets you annotate any website.
+    <br />
+    <br />
+    <a href="https://example.com">Download</a> the extension in the chrome web store
+    ·
+    <a href="https://example.com">Test</a> out the app here
+    ·
+    <a href="https://github.com/Noteworthy-Extension/Noteworthy-App/issues">Report a bug</a>
+  </p>
 </div>
 
-  
-  
-  
-
 <!-- TABLE OF CONTENTS -->
-
 <details>
-
-<summary>Table of Contents</summary>
-
-<ol>
-
-<li><a  href="#about-the-project">About The Project</a></li>
-
-<li><a  href="#built-with">Built With</a></li>
-
-<li><a  href="#contributing">Contributing</a></li>
-
-<li><a  href="#license">License</a></li>
-
-<li><a  href="#contact">Contact</a></li>
-
-</ol>
-
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
 </details>
 
-## About The Project
 
-![Logo](dist/assets/images/Noteworthy-Logo.png)
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
 Noteworthy is a browser based extension that allows you to make annotations and take notes on any website. It has many features from text to drawing that all work on any website. With local storage, the notes you take are saved locally to your device so that the notes load when you visit the site again. 
 
-Why to use Noteworthy:
+### Features
 
-* Taking notes on the website itself is faster and easier meaning you will likely take more and better notes!
+Noteworthy has many features giving you as much freedom on the website as if it was a piece of paper. 
 
-* Our note storage system is local to your device meaning that it never goes through an external database where the data could be collected.
-
-* Putting notes on a page that you will visit again will lead to you actually looking back at your notes versus never opening that document that you might be taking notes on now!  
-
-<p  align="right">(<a  href="#readme-top">back to top</a>)</p>
-  
+With Noteworthy you can annotate the page with:
+* Drawing
+* Highlighting
+* Shapes
+* Lines
+* Arrows
+* Textboxes
 
 ### Built With
 
-Our app is built with pure Typescript, SASS, and then compiled to pure JavaScript.
+We built our app with pure Typescript to ensure code security, then we transpile our code to JS. We also used pure Sass which allows more complex visual styling and makes it easier for the app to not conflict with the website. After compiling it to code that the browser can read, we bundled our code into one minified file with Gulp. This is the file that we use for the chrome extension.
 
-<p  align="right">(<a  href="#readme-top">back to top</a>)</p>
+* [![Typescript][Typescript]][Typescript-url]
+* [![Sass][Sass]][Sass-url]
+* [![Gulp][Gulp]][Gulp-url]
 
+<!-- GETTING STARTED -->
 ## Getting Started
 
-To use our app, simple install the extension from the <a href="https://chrome.google.com/webstore/category/extensions">Chrome Web Store</a>.
+This is a guide on a few ways to install the extension.
 
-### <p align="center"><a href="https://chrome.google.com/webstore/search/Noteworthy">Install here</a></p>
+### Installation
 
-<p  align="right">(<a  href="#readme-top">back to top</a>)</p>
+_There are a few ways to install noteworthy_
+<ul>
+  <li>Chrome Webstore</li>
 
-## Usage
+  <ul>
+    <li>The Chrome Webstore is the easiest way to install Noteworthy but sometimes updates get delayed. First, go to the app's page on the
+    <a href='https://example.com'>Chrome Webstore</a>
+    </li>
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+    <li>Click install, go to a page and click on the extension. A dropdown should open which will allow you to markdown the page. Once you're done you can leave the page and all of your notes will stay when you return</li>
+  </ul>
 
-  
+  <li>2. Bookmarklet</li>
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+  <ul>
+    <li>
+      If you want to test Noteworthy before downloading it, you can run a bookmarklet. A bookmarklet is a Javascript in a bookmark, this bookmark has to be run every time you load a page making this not a long-term way to download.
+    </li>
 
-  
+    <li>
+      Go to the [GitHub Pages](https://example.com) and drag the link that says "bookmarklet" into your bookmarks bar. (If it is hidden, press Ctrl + Shift + B).
+    </li>
+  </ul>
 
-<p  align="right">(<a  href="#readme-top">back to top</a>)</p>
+  <li>3. From the source</li>
 
+  <ul>
+    <li>
+      Git clone the <a href="https://github.com/Noteworthy-Extension/Noteworthy-Extension">src repo</a> Then go to <a href="chrome://extensions">chrome://extensions</a> and click load unpacked extension. Click the folder that you clone, then dist, then click OK. This will load the extension in and you can use it normally.
+    </li>
+  </ul>
+</ul>
 
-## Roadmap
-
-  
-
-- [x] Add Changelog
-
-- [x] Add back to top links
-
-- [ ] Add Additional Templates w/ Examples
-
-- [ ] Add "components" document to easily copy & paste sections of the readme
-
-- [ ] Multi-language Support
-
-- [ ] Chinese
-
-- [ ] Spanish
-
-  
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-  
-
-<p  align="right">(<a  href="#readme-top">back to top</a>)</p>
-
-## Contributing
-
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have any suggestions for features or find any bugs, please let us now!
-
-As a developing app, please give us a good review on the <a href="https://chrome.google.com/webstore/search/Noteworthy">Chrome Web Store</a>.
-
- #### <a  href="https://github.com/Noteworthy-Extension/Noteworthy-Extension/issues">Report a Bug / Request a Feature</a>
-
-<p  align="right">(<a  href="#readme-top">back to top</a>)</p>
-
+<!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p  align="right">(<a  href="#readme-top">back to top</a>)</p>
-
+<!-- CONTACT -->
 ## Contact
 
-If you have an questions or anything to say, contact us here:
+If you have a question or anything to say, contact us here:
 
 ### noteworthy.extension@gmail.com
 
+Project Link: [https://github.com/Noteworthy-Extension/Noteworthy-App](https://github.com/Noteworthy-Extension/Noteworthy-App)
 
-<p  align="right">(<a  href="#readme-top">back to top</a>)</p>
-
+<!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-  ### Developers
-  * @AwesomeMarley
-  * @Touch-Grass
+A list of some of the tools and resources we used to make our app.
 
-<p  align="right">(<a  href="#readme-top">back to top</a>)</p>
+* [Quill Editor](https://quilljs.com/)
+* [Icons8](https://icons8.com/)
+* [Gulp](https://gulpjs.com/)
+* [Sass Live Compile](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass)
+
+  ### Developers
+  * [@AwesomeMarley](https://github.com/AwesomeMarley)
+  * [@Touch-Grass](https://github.com/Touch-Grass)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[Typescript]: https://res.cloudinary.com/dy1ztqqbk/image/upload/v1667021818/Noteworthy%20App/TypescriptLogo_80x80_p80gvb.png
+[Typescript-url]: https://typescriptlang.org
+[Sass]: https://res.cloudinary.com/dy1ztqqbk/image/upload/v1667022004/Noteworthy%20App/Sass_Logo_Color.svg_80x80_vakikj.png
+[Sass-url]: https://sass-lang.com/
+[Gulp-url]: https://gulpjs.com/
+[Gulp]: https://res.cloudinary.com/dy1ztqqbk/image/upload/v1667178816/Noteworthy%20App/GulpLogoBetter_80x80_pdl2fk.png
+
+

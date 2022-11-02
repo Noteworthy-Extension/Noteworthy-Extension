@@ -83,7 +83,7 @@ _There are a few ways to install noteworthy_
     The Chrome Webstore is the easiest way to install Noteworthy but sometimes updates get delayed. First, go to the app's page on the
     <a href='https://chrome.google.com/webstore/detail/noteworthy/ipgeapjcihgdkhoilllkfgkhailadfha'>Chrome Webstore</a>
 
-    <>Click install, go to a page and click on the extension. A dropdown should open which will allow you to markdown the page. Once you're done you can leave the page and all of your notes will stay when you return</l
+    Click install, go to a page and click on the extension. A dropdown should open which will allow you to markdown the page. Once you're done you can leave the page and all of your notes will stay when you return
   </ul>
   
   <li>2. From the source</li>

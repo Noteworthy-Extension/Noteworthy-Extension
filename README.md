@@ -75,7 +75,7 @@ This is a guide on a few ways to install the extension.
 
 ### Installation
 
-_There are a few ways to install noteworthy_
+_There are a few ways to install Noteworthy_
 <ul>
   <li>Chrome Webstore</li>
 
